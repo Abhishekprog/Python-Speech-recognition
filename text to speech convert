@@ -1,0 +1,7 @@
+# for Converting Text To Speech
+from gtts import gTTS
+ 
+ 
+note = gTTS(text="hello freinds how are you", lang='en')
+note.save("record2.mp3")
+print("Text Converted Successfully ")
